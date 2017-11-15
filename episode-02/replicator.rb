@@ -1,3 +1,4 @@
+# require 'pry'
 class Replicator
 
   # When the Enterprise calls Replicator.new, this method executes.
@@ -118,7 +119,7 @@ class Replicator
       )
     end
   end
-
+#binding.pry
   # This mixes the ingredients around inside the replicator.
   def mix
 
@@ -200,7 +201,7 @@ class Replicator
   end
 
   def mouse_chews_through_power_cord
-    @power = false
+  #  @power = false
   end
 
 end
